@@ -1,15 +1,11 @@
-import os, sys, math
+"""Contoh kode yang sudah diperbaiki sesuai PEP 8."""
 
-x = 10
 
-def Bad_Function_Name( A, B, C, D, E, F ):
- global x
- l = 1; O = 0
- if A == True:
-  if B == False:
-   if C == None:
-    try: print(eval("A + B")); res = E[0] + F + l + O
-    except: pass
- else: return None
+def hitung_nilai(angka_1, angka_2):
+    """Menghitung penjumlahan dua angka."""
+    hasil = angka_1 + angka_2
+    print(hasil)
+    return hasil
 
-Bad_Function_Name(True, False, None, 1, [2], 3)
+
+hitung_nilai(1, 2)
